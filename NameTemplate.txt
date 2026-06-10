@@ -1,0 +1,1 @@
+﻿{service.shortName::=RD["🟡 RD"||""]}{service.shortName::=AD["🟣 AD"||""]}{service.shortName::=TB["🟢 TB"||""]}{service.shortName::=ND["🔵 NzbDAV"||""]}{stream.type::=usenet[" | 🛰️ Usenet"||""]}{stream.type::=torrent::or::stream.type::=debrid[" | 🧲 Torrent"||""]}{stream.size::>0[" | 💾 {stream.size::sbytes}"||""]}
